@@ -1,23 +1,29 @@
-<html>
-  <head>
-    <link href="./bootstrap/css/halfmoon-variables-min.css" rel="stylesheet" />
-    <script src="./js/inc.js"></script>
-    <title>SpringMC | Test</title>
-  </head>
-  <body>
-   <div class="page-wrapper with-navbar navbar.navbar-fixed-bottom">
-     <nav class="navbar">
-      <div w3-include-html="/inc/navbar.html"></div>
-     </nav>
-     <div class="content-wrapper">
+<head>
+  <link rel="stylesheet" href="/bootstrap/css/halfmoon-variables.min.css"
+</head>
+<body>
+  <!-- Page wrapper with navbar, sidebar, navbar fixed bottom, and sticky alerts (toasts) -->
+  <div 
+    class="page-wrapper with-navbar  with-navbar-fixed-bottom dark-mode" 
+    data-sidebar-type="overlayed-sm-and-down">
+    
+    <!-- Navbar -->
+    <nav class="navbar">
+      <a href="#" class="navbar-brand">
+        <img src="/assets/logo.png" alt="Logo">
+        SpringMC
+      </a>
+    </nav>
+    <!-- Content wrapper -->
+    <div class="content-wrapper">
+      ...
+    </div>
+    <!-- Navbar fixed bottom -->
+    <nav class="navbar navbar-fixed-bottom">
+      ...
+    </nav>
+  </div>
 
-     </div>
-   </div>
-    <script src="/bootstrap/js/halfmoon.min.js"></script>
-  </body>
-  <footer>
-    <script>
-      IncludeHtml();
-    </script>
-  </footer>
-</html>
+  <!-- Requires halfmoon.js for toggling sidebar, and toasts -->
+  <script src="/bootstrap/js/halfmoon.js"></script>
+</body>
