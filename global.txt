@@ -1,2 +1,3 @@
 sidebar link code: <a class="sidebar-link" href="/Staff/"><h5>Staff</h5></a>
-navbar link code:
+navbar link code: <a href="#" class="btn btn-link" role="button">Link</a>
+sidebar toggle: <input class="btn btn-primary"  onclick="halfmoon.toggleSidebar() value="Submit">
