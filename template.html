@@ -6,23 +6,24 @@
 <body>
   <!-- Page wrapper with navbar, sidebar, navbar fixed bottom, and sticky alerts (toasts) -->
   <div 
-    class="page-wrapper with-navbar  with-navbar-fixed-bottom dark-mode" 
+    class="page-wrapper with-navbar with-sidebar with-navbar-fixed-bottom dark-mode" 
     data-sidebar-type="overlayed-sm-and-down">
-    
+    <!-- Sticky alerts (toasts), empty container -->
+    <div class="sticky-alerts"></div>
     <!-- Navbar -->
-    <nav class="navbar">
+    <nav class="navbar justify-content-between">
       <a href="#" class="navbar-brand">
-        <img src="/assets/logo.png" alt="Logo">
+        <img src="/assets/Logo.png" alt="Logo">
         SpringMC
       </a>
-      <div class="navbar-text nav-link">
-        <div>
-            <a  href="/Staff/">Staff</a>
-            <a  href="/Rules/">Rules</a>
-            <a href="/Discord/">Discord</a>
-        </div>
-      </div>
+      <input type="button" class="btn btn-primary" onclick="location.href='https://discord.gg/XgjhUU92FN';" value="Discord" style="text-align: right;">
     </nav>
+    <!-- Sidebar overlay -->
+    <div class="sidebar-overlay" onclick="halfmoon.toggleSidebar()"></div>
+    <!-- Sidebar -->
+    <div class="sidebar">
+      ...
+    </div>
     <!-- Content wrapper -->
     <div class="content-wrapper">
       ...
@@ -34,7 +35,7 @@
   </div>
 
   <!-- Requires halfmoon.js for toggling sidebar, and toasts -->
-  <script src="/bootstrap/js/halfmoon.js"></script>
+  <script src="path/to/halfmoon.js"></script>
 </body>
 <footer>
 
