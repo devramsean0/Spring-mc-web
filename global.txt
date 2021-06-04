@@ -1,2 +1,7 @@
 sidebar link code: <a class="sidebar-link" href="/Staff/"><h5>Staff</h5></a>
-navbar link code:
+navbar link code: <a href="#" class="btn btn-link" role="button">Link</a>
+sidebar toggle: <input class="btn btn-primary"  onclick="halfmoon.toggleSidebar() value="Submit">
+forms nav bar code:       <p>
+                                <a href="/Forms/Staff-Applications/" class="btn" type="button">Staff Applications</a>
+                                <a href="/Forms/Unban-Request/" class="btn" type="button">Unban Request</a>
+                            </p>
