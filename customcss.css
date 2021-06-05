@@ -4,3 +4,6 @@ body .settingsmenu {
 body .buttonrightallign {
     float: right;
 }
+body .backgroundimg1 {
+    background: #fff url(/assets/photos/Lobby/main.png) center center/cover no-repeat fixed;
+}
