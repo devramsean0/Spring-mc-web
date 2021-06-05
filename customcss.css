@@ -1,3 +1,6 @@
 body .settingsmenu {
     font-size:7px;
 }
+body .buttonrightallign {
+    float: right;
+}
