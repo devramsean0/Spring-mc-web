@@ -1,0 +1,17 @@
+.bannerimg {
+  background: #fff url(/assets/banner.png) center center/cover no-repeat;
+  color: #302b2b;
+}
+
+/*Colums*/
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*# sourceMappingURL=css.css.map */
