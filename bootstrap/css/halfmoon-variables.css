@@ -164,10 +164,10 @@ CSS variables (CSS custom properties)
         ~ Only limited to 3 because a wide range of colors don't look good in 
         dark themes.
     */
-
-    --dark-color: #191c20;
-    --dark-color-light: #25282c;
-    --dark-color-dark: #111417;
+ 
+    --dark-color: rgb(228, 41, 41);
+    --dark-color-light: #ff6600;
+    --dark-color-dark: #d8cc28;
 
     /* Gray colors */
     
