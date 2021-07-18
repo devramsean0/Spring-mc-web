@@ -1,24 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap");
 body {
-  background: #ff6600;
-  background: radial-gradient(circle, #ff6600 0%, #f1840b 16%, #cfcc26 55%, red 73%);
+  background-color: black;
 }
 
 .title {
   font-family: 'Otomanopee One', sans-serif;
-}
-
-.gradient {
-  background: #ff6600;
-  background: radial-gradient(circle, #ff6600 0%, #f1840b 16%, #cfcc26 55%, red 73%);
-  border-bottom: 0px groove #000;
-  border-left: 6px double #000;
-  border-right: 6px double #000;
-  border-top: 6px double #000;
-  border-bottom: 6px double #000;
+  color: black;
 }
 
 .border {
-  border: 2px solid #000;
+  border: 2px solid #dfd6d6;
+}
+
+nav {
+  background-color: white;
+  color: black;
+}
+
+p {
+  color: white;
+}
+
+.subtitle {
+  color: white;
+}
+
+.blackbox {
+  color: white;
+  background-color: black;
+  font-family: 'Otomanopee One', sans-serif;
 }
 /*# sourceMappingURL=cover-page.css.map */
