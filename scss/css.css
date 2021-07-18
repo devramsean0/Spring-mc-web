@@ -14,4 +14,15 @@
   display: table;
   clear: both;
 }
+
+#myProgress {
+  width: 100%;
+  background-color: grey;
+}
+
+#myBar {
+  width: 1%;
+  height: 30px;
+  background-color: green;
+}
 /*# sourceMappingURL=css.css.map */
