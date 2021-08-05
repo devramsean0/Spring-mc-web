@@ -1,3 +1,0 @@
-  orange = #ff6600
-  yellow = #d8cc28
-  red = rgb(228, 41, 41)
